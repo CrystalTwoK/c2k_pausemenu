@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+::selection{
+	background-color: transparent;
+	text-shadow: none;
+}
+
+html {
+	font-family: 'Saira Semi Condensed', sans-serif !important;
+	background:transparent;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background:  url('../images/background.png') center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	z-index:9999;
+	overflow: hidden;
+	cursor: default;
+}
+
+#wrap {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    top: 45%;
+    left: 43%;
+    width: 85vw;
+    height: 41vw;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgba(238, 238, 238, 0.9);
+}
+
+#menu {
+	font-size:1.0vw;
+	position:absolute;
+	color: #eee;
+	width:86%;
+	top: 50%;
+	left: 0;
+	text-shadow: 0 0 0.5vw 	#bdbdbd;
+}
+
+.menu-button-list{
+	list-style: none;
+}
+
+.menu-button-list > h1 {
+	color: #ff0c27;
+	font-weight: 600;
+	text-shadow: 0 0 0.5vw #c50b21b2;
+}
+
+.menu-button-list .menu-button{
+	margin-bottom: 10px;
+	width: fit-content;
+	position: relative;
+	transition: all ease-in-out 0.150s;
+}
+
+.menu-button-list .menu-button .fa-solid{
+	margin-right: 5px;
+}
+
+.menu-button-list .menu-button:hover{
+	color: #eee;
+	text-shadow: 0 0 0.5vw #eeeeeed7;
+	font-weight: 500;
+	cursor: pointer;
+	transform: scale(110%);
+}
+
+.menu-button-list .menu-button:hover > .fa-solid{
+	color: #ff0c27;
+	text-shadow: 0 0 0.5vw #c50b21;
+}
+
+.disconnessione-menu-list{
+	list-style: none;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px;
+	margin-top: 25px;
+}
+
+#confermaContainer{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	bottom: 0;
+	font-size:1.0vw;
+	color: #eee;
+	text-shadow: 0 0 0.5vw 	#bdbdbd;
+	position: relative;
+}
+
+#confermaDisconnessione{
+	width: 400px;
+	height: 80px;
+	background-color: #111111aa;
+	border-radius: 5px;
+	position: absolute;
+	left: 38%;
+	top: 45%;
+	padding: 15px;
+}
+
+#confermaDisconnessione > p{
+	width: 400px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff0c27;
+	text-align: center;
+	vertical-align:middle;
+	margin-bottom: 5px !important;
+}
+
+#confermaDisconnessione p span{
+	font-weight: 500;
+}
+
+.menu-button.si{
+	padding-left: 30px !important;
+}
+.menu-button.no{
+	padding-right: 30px !important;
+}
+
+.disconnessione-menu-list .menu-button{
+	display: block;
+    flex: 0 1 auto;
+}
+
+.disconnessione-menu-list .menu-button:hover{
+	color: #ff0c27;
+	text-shadow: 0 0 0.5vw 	#ff0c27;
+	font-weight: 500;
+	cursor: pointer;
+}

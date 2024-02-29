@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet" type="text/css" /> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body style="display:none;">
+	<audio id='mousesfx' src='https://dl.sndup.net/xv3y/button_sfx.mp3'></audio>
+	<audio id='mouseoversfx' src='https://dl.sndup.net/v8zn/mouseover_sfx.mp3'></audio>
+	<div id="wrap">
+		<div id="menu">	
+			<ul class="menu-button-list">
+				<h1>MENU PAUSA</h1>
+				<li id="riprendi" class="menu-button"><i class="fa-solid fa-play"></i> RIPRENDI</li>
+				<li id="report" class="menu-button"><i class="fa-solid fa-bug"></i> INVIA REPORT</li>
+				<li id="mappa" class="menu-button"><i class="fa-solid fa-map-location-dot"></i> MAPPA</li>
+				<li id="impostazioni" class="menu-button"><i class="fa-sharp fa-solid fa-gear"></i> IMPOSTAZIONI</li>
+				<!-- <li id="cambiapg" class="menu-button"><i class="fa-solid fa-user-group"></i> CAMBIA PERSONAGGIO</li> -->
+				<li id="disconnessione" class="menu-button"><i class="fa-solid fa-right-from-bracket"></i> DISCONNETTITI</li>
+			</ul>
+		</div>
+	</div>
+	<div id="confermaContainer" style="display: none;">
+		<div id="confermaDisconnessione">
+			<p>Vuoi davvero disconnetterti da <span>HORDE</span>?</p>
+			<ul class="disconnessione-menu-list">
+				<li id="disconnesioneSi" class="menu-button si">SI</li>
+				<li id="disconnesioneNo" class="menu-button no">NO</li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script src="https://kit.fontawesome.com/9342a48977.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="app.js"></script>
+</html>
